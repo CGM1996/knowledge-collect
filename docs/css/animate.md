@@ -1,4 +1,4 @@
-## CSS3 animation
+# CSS3 animation
 animation 是一个缩写属性，由以下属性构成
 ```css
 animation: name duration timing-function delay iteration-count direction fill-mode play-state;
@@ -36,9 +36,10 @@ animation-timing-function 使用三次贝塞尔（Cubic Bezier）函数的数学
 | 值        | 描述                                                         |
 | --------- | ------------------------------------------------------------ |
 | none      | 默认。当动画未执行时，动画将不会将任何样式应用于目标，而是已经赋予给该元素的 CSS 规则来显示该元素。 |
-| forwards  | 动画完成后，元素状态保持为最后一帧的状态                     |
+| forwards  | 动画完成后，元素状态保持为最后一帧的状态                    |
 | backwards | 有动画延迟时，动画开始前，元素状态保持为第一帧的状态         |
-| both      | 表示上述二者效果都有                                         |
+| both      | 表示上述二者效果都有                                       |
+
 
 
 ## 参考文档
