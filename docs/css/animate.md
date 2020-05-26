@@ -17,7 +17,7 @@ animation: name duration timing-function delay iteration-count direction fill-mo
 
 ## 属性详解
 ### animation-timing-function
-速度曲线用于使变化更为平滑。
+速度曲线用于使变化更为平滑。  
 animation-timing-function 使用三次贝塞尔（Cubic Bezier）函数的数学函数，来生成速度曲线。您能够在该函数中使用自己的值，也可以预定义的值：
 
 | 值                            | 描述                                                       |
