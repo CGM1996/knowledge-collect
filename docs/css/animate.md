@@ -40,7 +40,15 @@ animation-timing-function 使用三次贝塞尔（Cubic Bezier）函数的数学
 | backwards | 有动画延迟时，动画开始前，元素状态保持为第一帧的状态         |
 | both      | 表示上述二者效果都有                                       |
 
+### animaition-direction
+动画播放的方向
 
+| 值        | 描述                                                         |
+| --------- | ------------------------------------------------------------ |
+| normal       | 默认。动画结束，重置回到起点重新开始         |
+| reverse   | 反向运行动画。动画周期结束，由尾到头重新运行    |
+| alternate  | 交替反向运行         |
+| alternate-reverse   | 反向交替。动画第一次运行时是反向的，然后下一次是正向，后面依次循环    |
 
 ## 参考文档
 [CSS老姚](https://juejin.im/post/5cdd178ee51d456e811d279b)  
