@@ -1,6 +1,7 @@
 * [首页]()
 * [CSS](/css/animate)
   * [animation 动画](/css/animate)
+  * [animation 动画集锦](/css/animation-collect)
 * [HTML](/css/html)
 * [JS](/css/js)
 * [Tool](/tool/docsify)
