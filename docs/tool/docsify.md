@@ -74,8 +74,22 @@ graph 方向描述
 | A-->B | 箭头 |
 | A-- 描述文字 --->B  | 带文字的箭头 |
 
+## docisify 使用全局搜索
+```js
+// 引入js文件 需要在docsify.min.js之后引入
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+```
+
+## 复制到剪切板
+```js
+// 引入js文件
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+```
 
 ## 参考链接
 [docsify文档](https://docsify.js.org/?utm_source=hacpai.com#/zh-cn/markdown?id=%e6%94%af%e6%8c%81-mermaid)  
+[docsify中文文档](https://docsify.js.org/#/zh-cn/markdown)   
 [流程图语法](https://www.geek-share.com/detail/2731174284.html)  
-[流程图语法官方文档](https://mermaid-js.github.io/mermaid/#/flowchart)
+[流程图语法官方文档](https://mermaid-js.github.io/mermaid/#/flowchart)  
+[docsify插件文档](https://docsify.js.org/#/plugins)  
+[全局搜索插件使用](https://www.lizenghai.com/archives/87457.html)  

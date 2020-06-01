@@ -21,8 +21,15 @@
       repo: '',
       loadSidebar: true, // 配置导航栏
       subMaxLevel: 1,
+      auto2top: true, // 切换页面后是否自动跳转到页面顶部。
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      search: {
+        paths: 'auto',
+        placeholder: '请输入要搜索的关键字',
+        noData: '没有结果',
+        depth: 6,
       },
       markdown: {
         renderer: {
@@ -39,5 +46,7 @@
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 </body>
 </html>
