@@ -1,4 +1,8 @@
 * [首页]()
+* [TypeScript](/ts/use)
+  * [日程](/ts/schedule)
+  * [安装与使用](/ts/use)
+  * [ts 类型](/ts/type)
 * [CSS](/css/animate)
   * [animation 动画](/css/animate)
   * [animation 动画集锦](/css/animation-collect)

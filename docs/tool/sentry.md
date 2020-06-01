@@ -16,7 +16,7 @@ if (process.env.NODE_ENV !== 'development') {
     .install()
 }
 ```
-![sentry配置](../imgs/sentry.png)
+![sentry配置](../assets/imgs/sentry.png)
 
 ### 测试
 ```js
