@@ -7,6 +7,8 @@
   * [animation 动画](/css/animate)
   * [animation 动画集锦](/css/animation-collect)
   * [filter](/css/filter)
+* [JS](/js/按位操作符)
+  * [按位操作符](/js/按位操作符)
 * [Tool](/tool/docsify)
   * [docsify 常用语法说明](/tool/docsify)
   * [sentry接入](/tool/sentry)
