@@ -12,3 +12,4 @@
 * [Tool](/tool/docsify)
   * [docsify 常用语法说明](/tool/docsify)
   * [sentry接入](/tool/sentry)
+  * [vue项目配置lint](/tool/lint-tool)
