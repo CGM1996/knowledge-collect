@@ -89,7 +89,7 @@ console.log(colorName);  // 显示'Green'因为上面代码里它的值是2
 ```
 ### any
 不希望类型检查器对变量进行检查而是直接让它们通过编译阶段的检查, 那么我们可以使用 any类型来标记这些变量
-### viod
+### void
 表示没有任何类型。 当一个函数没有返回值时，返回值类型是 void：
 ```js
 function warnUser(): void {
@@ -119,8 +119,7 @@ let strLength: number = (someValue as string).length;
 ```
 
 
-
-
 ## 注意
-* TypeScript 中描述类型要用 小写。
-* 不要滥用 any !
+> TypeScript 中描述类型要用 小写。比如 boolean、number、string等  
+  大写开头的如 Boolean、Number、String 代表的是 JavaScript 的构造函数。  
+  不要滥用 any !
