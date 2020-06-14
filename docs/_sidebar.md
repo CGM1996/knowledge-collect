@@ -10,6 +10,7 @@
     * [枚举Enum](/ts/基础/enum)
     * [Never 与 Unknown](/ts/基础/never)
     * [接口Interface](/ts/基础/interface)
+    * [类Class](/ts/基础/class)
 * [CSS](/css/animate)
   * [animation 动画](/css/animate)
   * [animation 动画集锦](/css/animation-collect)
