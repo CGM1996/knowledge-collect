@@ -36,5 +36,5 @@ typeof BigInt(10) // 'bigint'
 ```
 
 ## 注意
-!>warning 不要在Number 与 BigInt 之间相互转换（会损失精度）；  
+!> 不要在Number 与 BigInt 之间相互转换（会损失精度）；  
 仅在值可能大于 2^53 - 1 时使用 BigInt。
