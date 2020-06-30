@@ -22,6 +22,8 @@
   * [filter](/css/filter)
 * [JS](/js/按位操作符)
   * [按位操作符](/js/按位操作符)
+* [vue](/vue/router)
+  * [vue router](/vue/router)
 * [Tool](/tool/docsify)
   * [docsify 常用语法说明](/tool/docsify)
   * [sentry接入](/tool/sentry)
