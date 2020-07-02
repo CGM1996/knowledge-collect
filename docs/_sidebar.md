@@ -24,6 +24,7 @@
   * [按位操作符](/js/按位操作符)
   * [前端存储](/js/storage)
   * [正则](/js/正则)
+  * [preload prefetch](/js/preload)
 * [vue](/vue/router)
   * [vue router](/vue/router)
 * [Tool](/tool/docsify)
