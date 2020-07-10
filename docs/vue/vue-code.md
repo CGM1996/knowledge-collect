@@ -59,10 +59,10 @@ lifecycle.js
 
 ### 参考链接
 
-[github vue源码导读](https://github.com/muwoo/blogs/blob/master/src/Vue/1.md)
-[调试vue源码](https://juejin.im/post/5efb634bf265da22ab2d4b07)
-[生啃vue源码](https://juejin.im/post/5f02f0bdf265da22ef7dbe5d)
-[chrome调试](https://developers.google.com/web/tools/chrome-devtools/javascript?hl=zh-cn)
-[vue-prase 理解](https://juejin.im/post/5d09a4fef265da1b6b1cd96b#heading-13)  
-[vue使用技巧](https://juejin.im/post/5ef6d1325188252e75366ab5)
+[github vue源码导读](https://github.com/muwoo/blogs/blob/master/src/Vue/1.md)    
+[调试vue源码](https://juejin.im/post/5efb634bf265da22ab2d4b07)      
+[生啃vue源码](https://juejin.im/post/5f02f0bdf265da22ef7dbe5d)      
+[chrome调试](https://developers.google.com/web/tools/chrome-devtools/javascript?hl=zh-cn)     
+[vue-prase 理解](https://juejin.im/post/5d09a4fef265da1b6b1cd96b#heading-13)        
+[vue使用技巧](https://juejin.im/post/5ef6d1325188252e75366ab5)      
 
