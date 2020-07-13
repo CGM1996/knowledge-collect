@@ -169,7 +169,7 @@ ES7中实现的Decorator，相当于设计模式中的装饰器模式。如何�
 看了源码，没有使用到Proxy,就是调用rules中的验证方法。
 
 ### 参考链接
-[MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy)    
+[MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy)     
 [掘金](https://juejin.im/post/5a5227ce6fb9a01c927e85c4)    
 [大漠的博客](https://www.w3cplus.com/javascript/use-cases-for-es6-proxies.html)  
 [对象描述符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
