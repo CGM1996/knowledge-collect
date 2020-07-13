@@ -14,7 +14,7 @@
 // this.$route.params
 ```
 
-#### params 与 query
+#### params 与 query 
 1. params 
 刷新页面params丢失
 ```js
