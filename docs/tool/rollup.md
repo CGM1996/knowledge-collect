@@ -31,6 +31,10 @@ npm install rollup @babel/core @babel/preset-env rollup-plugin-babel rollup-plug
 
 ### rollup vs webpack
 
+### rollup 打包文件格式
+输出的文件类型 (amd, cjs, esm, iife, umd)   
+[参考链接](https://juejin.im/post/5db2fa6ee51d4529ec55aeed)
+
 ### 参考链接
 [掘金-搭建工具库](https://juejin.im/post/5c7c7f9851882540c8245054)
 [掘金-颜海镜-8102年如何写一个现代的JavaScript库](https://juejin.im/post/5bbafd78f265da0ad947e6ba)   
