@@ -9,5 +9,54 @@
 | 500-599 | 服务器错误 |
 
 
+  - 常见http状态码   （302    location  跳转）
+
+    <table>
+      <tr>
+      <td>HTTP状态码</td>
+      <td>描述</td>
+      </tr> 
+      <tr>
+      <td>100</td>
+      <td>继续。继续响应剩余部分，进行提交请求</td>
+      </tr>
+      <tr>
+      <td>200</td>
+      <td>成功</td>
+      </tr>
+      <tr>
+      <td>301</td>
+      <td>永久移动。请求资源永久移动到新位置</td>
+      </tr>
+      <tr>
+      <td>302</td>
+      <td>临时移动。请求资源零时移动到新位置</td>
+      </tr>
+      <tr>
+      <td>304</td>
+      <td>未修改。请求资源对比上次未被修改，响应中不包含资源内容</td>
+      </tr>
+      <tr>
+      <td>401</td>
+      <td>未授权，需要身份验证</td>
+      </tr>
+      <tr>
+      <td>403</td>
+      <td>禁止。请求被拒绝</td>
+      </tr>
+      <tr>
+      <td>404</td>
+      <td>未找到，服务器未找到需要资源</td>
+      </tr><tr>
+      <td>500</td>
+      <td>服务器内部错误。服务器遇到错误，无法完成请求</td>
+      </tr>
+      <tr>
+      <td>503</td>
+      <td>服务器不可用。零时服务过载，无法处理请求</td>
+      </tr>
+    </table>
+
+
 ### 参考链接
 [MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status)
