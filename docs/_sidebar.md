@@ -35,8 +35,8 @@
   * [Set](/js/Set)
   * [Proxy](/js/Proxy)
   * [Reflect](/js/Reflect)
-  * [postMessage]](/js/postMessage)
-  * [HTTP状态码]](/js/HTTP状态码)
+  * [postMessage](/js/postMessage)
+  * [HTTP状态码](/js/HTTP状态码)
   
 * [vue](/vue/router)
   * [vue router](/vue/router)

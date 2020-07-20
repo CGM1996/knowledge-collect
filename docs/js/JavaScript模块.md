@@ -69,6 +69,18 @@ const result = (
 不说了 老东西
 #### systemjs
 老东西
+
+### 模块化方案
+对于浏览器原生，预编译工具和node，不同环境中的模块化方案也不同；由于浏览器环境不能够解析第三方依赖，所以浏览器环境需要把依赖也进行打包处理；不同环境下引用的文件也不相同，下面通过一个表格对比下
+
+|            | 浏览器（script,AMD,CMD） | 预编译工具（webpack,rollup,fis） | Node     |      |
+| ---------- | ------------------------ | -------------------------------- | -------- | ---- |
+| 引用文件   | index.aio.js             | index.esm.js                     | index.js |      |
+| 模块化方案 | UMD                      | ES Module                        | commonjs |      |
+| 自身依赖   | 打包                     | 打包                             | 打包     |      |
+| 第三方依赖 | 打包                     | 不打包                           | 不打包   |      |
+
 ### 参考链接
 [知乎-JavaScript 模块现状](https://zhuanlan.zhihu.com/p/26567790) 
 [一个好博客！---让我搞懂了这些模式的区别](https://fe.rualc.com/note/js-modular.html)
+[颜海镜-如何写一个现代的JavaScript库](https://yanhaijing.com/javascript/2018/08/17/2020-js-lib/)
