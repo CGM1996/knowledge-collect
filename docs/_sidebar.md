@@ -49,6 +49,7 @@
   * [vue项目配置lint](/tool/lint-tool)
   * [JSDOC](/tool/JSDOC)
   * [vscode](/tool/vscode)
+  * [Babel](/tool/Babel)
   
 * [Node](/node/开始)
   * [开始](/node/开始)
