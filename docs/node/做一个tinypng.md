@@ -73,9 +73,48 @@ fs.statSync(filePath).size
 2. 获取父级目录 path.resolve(process.execPath, '..')
 
 // zl9LZpmhHsvYzTSTWBNFLrst9N4Lt0SZ
+
+3. package.json 中 bin: 可以让执行自定义的快捷命令，全局安装后可直接使用
+file: 当你的包作为依赖被安装时所包含的文件(需要上传到npm的源代码)
+types: 编译的JavaScript文件对应的类型声明文件
+4.  src/tiny.ts --resolveJsonModule --outDir dist 
+5. path.join()将所有给定的 path 片段连接到一起（使用平台特定的分隔符作为定界符），然后规范化生成的路径
+path.join('/目录1', '目录2', '目录3/目录4', '目录5', '..');
+// 返回: '/目录1/目录2/目录3/目录4'
 ```
 
+### 使用ts改造代码
 
+```js
+1. ts中引入json文件： 在tsconfig.json中配置 
+"compilerOptions": {
+      "resolveJsonModule": true,
+  }
+ 2. node内置模块使用import导入 npm i @types/node -D
+ 3. 编译typescript
+```
+
+### 提交规范
+
+> feat: 表示新增了一个功能
+>
+> fix: 表示修复了一个 bug
+>
+> docs: 表示只修改了文档
+>
+> style: 表示修改格式、书写错误、空格等不影响代码逻辑的操作
+>
+> refactor: 表示修改的代码不是新增功能也不是修改 bug，比如代码重构
+>
+> perf: 表示修改了提升性能的代码
+>
+> test: 表示修改了测试代码
+>
+> build: 表示修改了编译配置文件
+>
+> chore: 无 src 或 test 的操作
+>
+> revert: 回滚操作
 
 ### 参考资料
 
@@ -83,6 +122,10 @@ fs.statSync(filePath).size
 > [require() 源码解读-阮一峰](http://www.ruanyifeng.com/blog/2015/05/require.html)
 > [segmentfault-https请求tinypng](https://segmentfault.com/a/1190000015467084)
 > [commanderjs-tj大神](https://github.com/tj/commander.js)
+> [从零实现Node.js命令行工具](https://zhuanlan.zhihu.com/p/91338826)
+>
+> [让 babel 帮你编译 typescript](https://github.com/frontend9/fe9-library/issues/23)
+> [ts命令](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 
 
 
