@@ -62,8 +62,6 @@ npm install inquirer
 
 ```
 
-
-
 ### 杂七杂八
 
 ```js
@@ -94,6 +92,15 @@ path.join('/目录1', '目录2', '目录3/目录4', '目录5', '..');
  3. 编译typescript
 ```
 
+### 进度条
+
+```js
+如何进度条固定： https://www.coder.work/article/1386315
+progress
+```
+
+
+
 ### 提交规范
 
 > feat: 表示新增了一个功能
@@ -115,6 +122,12 @@ path.join('/目录1', '目录2', '目录3/目录4', '目录5', '..');
 > chore: 无 src 或 test 的操作
 >
 > revert: 回滚操作
+
+### npm 发布相关
+
+> 包名格式 XXX-XXX
+> npm login
+> 删除包之后24小时之后才能重新发布相同包名的包
 
 ### 参考资料
 
