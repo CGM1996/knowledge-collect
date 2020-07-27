@@ -20,6 +20,7 @@
   * [ts 进阶](/ts/进阶/模块)
     * [模块](/ts/进阶/模块)
     * [泛型](/ts/进阶/泛型)
+  * [ts实践- 如何写一个ts版的工具库](/ts/如何写一个ts版的工具库)
   
 * [CSS](/css/animate)
   * [animation 动画](/css/animate)
