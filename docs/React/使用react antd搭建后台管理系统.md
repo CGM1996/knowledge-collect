@@ -21,6 +21,12 @@ useEffect 做了什么？ 通过使用这个 Hook，你可以告诉 React 组件
 与 componentDidMount 或 componentDidUpdate 不同，使用 useEffect 调度的 effect 不会阻塞浏览器更新屏幕，这让你的应用看起来响应更快。
 ```
 
+### React.FC
+
+```js
+FC是FunctionComponent的简写, 这个类型定义了默认的 props(如 children)以及一些静态属性(如 defaultProps)
+```
+
 
 
 ### 参考链接
