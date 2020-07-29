@@ -75,7 +75,13 @@ Context.Consumer
 ## 生命周期
 
 ```js
-
+componentWillMount 在组件渲染之前执行
+componebtDidMount 在组件渲染之后执行
+shouldComponentUpdate 需要返回true or false， true -> 允许改变，false不允许
+componentWillUpdate 数据(data,props)在改变之前执行
+componentDidUpdate 数据完成修改
+componentWillReceiveProps props发生改变执行
+componentWillInmount 组件卸载前执行
 ```
 
 
@@ -85,6 +91,29 @@ Context.Consumer
 ```js
 1. 驼峰命名
 2. 事件处理函数中的this,默认是undefined  =》 用箭头函数
+```
+
+### setState 是同步还是异步
+
+```js
+increment = () => {
+    this.setState({
+        count: this.state.count + 1
+    }, () => {
+        console.log(this.state.count) // 获取的是改变后的值
+    })
+   console.log(this.state.count) // 获取的是改变前的值
+}
+// 另外的方案
+ setStateAsync(state) {
+    return new Promise(resolve => {
+        this.setState(state, resolve)
+    })
+}
+increment = async () => {
+    await this.setStateAsync({count:this.state.count + 1 })
+    console.log(this.state.count)
+}
 ```
 
 
@@ -98,6 +127,7 @@ React.createElement(type, props, children)
 ReactDOM 提供了与浏览器交互的DOM功能，如DOM渲染
 ReactDOM.render(element, container, [, callback])
 2. setState 每次在组件中调用 setState 时，React 都会自动更新其子组件。
+3. 纯函数
 ```
 
 ## 杂七杂八学到的
