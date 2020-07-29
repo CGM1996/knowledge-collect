@@ -1,24 +1,24 @@
-## JSX
+### JSX
 JS + XML 语法糖 需要Babel编译。Babel 会把 JSX 转译成一个名为 React.createElement() 函数调用。
 注意，网页中实时将ES6代码转为ES5，对性能会有影响。生产环境需要加载已经转码完成的脚本。
 
-## 插值表达式
+### 插值表达式
 * 表达式： 运行之后会返回一个值   
 * 输出类型
     字符串 数字=》原样输出  
     布尔值 空 未定义 =》 忽略
-## 条件输出
+### 条件输出
 三元表达式、短路运输符&&
-## 列表渲染
+### 列表渲染
 * jsx不能写循环语句for while
 * 可以接受数组 arr.map(item => XXXxXX) 数组只能使用有返回值的api
 * 对象 Object.keys(obj).map(item => XXX)
 
-## 基于自动化的集成环境模式 create-react-app 脚手架
+### 基于自动化的集成环境模式 create-react-app 脚手架
 
-## 编辑器高亮
+### 编辑器高亮
 
-## JSX语法
+### JSX语法
 
 ```js
 // jsx不是html,写法与html有区别
@@ -42,7 +42,7 @@ style={{color: 'red'}}
 <button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
 ```
 
-## 组件
+### 组件
 
 ```js
 0. 类式组件
@@ -56,7 +56,7 @@ props 从参数传入
 3. setState修改组件数据， 不要直接通过this.state.XXX 修改数据
 ```
 
-## 组件通信
+### 组件通信
 
 ```js
 1. 父-》子 ： props
@@ -72,7 +72,7 @@ static contextType = Context
 Context.Consumer
 ```
 
-## 生命周期
+### 生命周期
 
 ```js
 componentWillMount 在组件渲染之前执行
@@ -84,9 +84,7 @@ componentWillReceiveProps props发生改变执行
 componentWillInmount 组件卸载前执行
 ```
 
-
-
-## 添加事件
+### 添加事件
 
 ```js
 1. 驼峰命名
@@ -116,10 +114,97 @@ increment = async () => {
 }
 ```
 
+### 受控表单 
+
+使 React 的 state 成为“唯一数据源”。渲染表单的 React 组件还控制着用户输入过程中表单发生的操作。被 React 以这种方式控制取值的表单输入元素就叫做“受控组件”。
+
+```js
+const handleChange = (e) => {
+     this.setState({
+         value: e.target.value
+     })
+}
+<input type="text" value={this.state.value} onChange={this.handleChange}>
+    
+// 非受控组件
+
+```
+
+### refs & DOM
+
+```js
+// 需要获取DOM的情况
+1. 管理焦点，文本选择或媒体播放
+2. 触发强制动画
+3. 集成第三方DOM库
+constructor() {
+    super()
+    this.HelloDiv = React.createRef()
+}
+componentDidMount() {
+    this.HelloDiv.current.style.color = 'red'
+}
+<div ref={this.HelloDiv}>
+    hello
+</div>
+// 不能在函数组件上使用 ref 属性，因为他们没有实例。
+// ref 会在 componentDidMount 或 componentDidUpdate 生命周期钩子触发前更新。
+
+```
+
+### 非受控组件
+
+```js
+constructor() {
+    super()
+    this.username = React.createRef()
+}
+<input type="text" value={this.username}>
+// 获取 this.username.current.value
+    // 一般推荐使用受控组件
+```
+
+### 状态提升
+
+```js
+将状态提升到父组件
+```
+
+### 组合 VS 继承
+
+```js
+// 推荐使用组合实现组件间的代码重用。
+1. 组合
+this.props.children
+2. 继承
+```
+
+### 使用PropTypes进行类型检测
+
+```js
+增强程序的健壮性  => ts
+import PropTypes from 'prop-types';
+class Greeting extends React.Component {
+  render() {
+    return (
+      <h1>Hello, {this.props.name}</h1>
+        {title}
+    );
+  }
+}
+Greeting.propTypes = {
+  name: PropTypes.string, // 类型
+    age: PropTypes.number..isRequired  // 必选项
+    title: '默认值' // 默认值
+};
+```
 
 
 
-## 需要看的
+
+
+
+### 需要看的
 ```js
 1. createElement
 React.js提供React.js的核心功能代码，如虚拟dom，组件
