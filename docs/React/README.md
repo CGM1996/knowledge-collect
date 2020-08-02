@@ -199,6 +199,49 @@ Greeting.propTypes = {
 };
 ```
 
+### fetch
+
+```js
+qs.stringify
+```
+
+### 跨域的解决方案
+
+```js
+# 开发模式
+常用的框架都会提供解决方案 proxy
+create-react-app => 在package。json中配置proxy
+安装http-proxy-middleware
+https://github.com/facebook/create-react-app/blob/master/docusaurus/docs/proxying-api-requests-in-development.md
+# 生成模式
+jsonp、 cors、iframe postMessage
+```
+
+### Router
+
+```js
+// https://reactrouter.com/web/guides/quick-start
+npm i react-router-dom
+哈希地址 HashRouter 锚点链接 带# 号
+BrowserRouter: h5新特性， /history.push  如果上线之后需要后台做重定向 404
+
+exact  strict
+Redirect 重定向
+Prompt 钩子
+withRouter 将组件由路由管理
+<Link activeclassname="selected" 
+    to={{
+        pathname: "/home",
+        search: "?sort=name",
+        hash: "#the-hash",
+        state: { fromDashboard: true }
+    }}>
+    首页
+</Link>	
+this.props.history.push('/')
+this.props.history.replace('/') // 替换 上一次页面不存在history中
+```
+
 
 
 
@@ -223,4 +266,6 @@ ReactDOM.render(element, container, [, callback])
 ```
 
 ## 参考链接
-[Babel 入门教程 - 阮一峰](http://www.ruanyifeng.com/blog/2016/01/babel.html)  
+[Babel 入门教程 - 阮一峰](http://www.ruanyifeng.com/blog/2016/01/babel.html)
+[React router 教程](https://reactrouter.com/web/guides/quick-start)
+[Redux 中文文档](https://www.redux.org.cn/)
