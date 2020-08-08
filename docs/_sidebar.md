@@ -26,6 +26,7 @@
   * [animation 动画](/css/animate)
   * [animation 动画集锦](/css/animation-collect)
   * [filter](/css/filter)
+  * [起名废拯救指南](/css/起名)
   
 * [JS](/js/按位操作符)
   * [按位操作符](/js/按位操作符)
@@ -38,6 +39,7 @@
   * [Reflect](/js/Reflect)
   * [postMessage](/js/postMessage)
   * [HTTP状态码](/js/HTTP状态码)
+  * [POST提交数据方式](/js/post)
   
 * [vue](/vue/router)
   * [vue router](/vue/router)
@@ -51,6 +53,11 @@
   * [JSDOC](/tool/JSDOC)
   * [vscode](/tool/vscode)
   * [Babel](/tool/Babel)
+  * [Jest](/tool/jest)
+  * [lerna](/tool/lerna)
+  * [格式化](/tool/lint-tool)
+  * [一些好玩的网站收集](/tool/一些好玩的网站收集)
+  * [如何学好英语](/tool/如何学好英语)
   
 * [Node](/node/开始)
   * [开始](/node/开始)
@@ -60,3 +67,10 @@
   * [网络操作](/node/网络操作)
   * [模板引擎pug](/node/模板引擎pug)
   * [koa](/node/koa框架)
+  * [koa](/上传图片至tinypng压缩/做一个tinypng)
+  
+
+* [React](/React/README)
+  * [开始](/React/README)
+  * [Redux](/React/Redux)
+  * [使用react antd搭建后台管理系统](/React/使用react+antd搭建后台管理系统)
