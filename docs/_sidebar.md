@@ -40,6 +40,8 @@
   * [postMessage](/js/postMessage)
   * [HTTP状态码](/js/HTTP状态码)
   * [POST提交数据方式](/js/post)
+  * [JSONP](/js/jsonp)
+  * [防抖节流](/js/防抖节流)
   
 * [vue](/vue/router)
   * [vue router](/vue/router)
@@ -74,3 +76,7 @@
   * [开始](/React/README)
   * [Redux](/React/Redux)
   * [使用react antd搭建后台管理系统](/React/使用react+antd搭建后台管理系统)
+
+  
+* [珍藏](/collect/blog)
+  * [技术博客收藏](/collect/blog)
