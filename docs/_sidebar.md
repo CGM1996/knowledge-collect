@@ -21,6 +21,9 @@
     * [模块](/ts/进阶/模块)
     * [泛型](/ts/进阶/泛型)
   * [ts实践- 如何写一个ts版的工具库](/ts/如何写一个ts版的工具库)
+
+* [HTML](/html/唤起文件的各种姿势)
+  * [唤起文件的各种姿势](/html/唤起文件的各种姿势)
   
 * [CSS](/css/animate)
   * [animation 动画](/css/animate)
@@ -42,6 +45,7 @@
   * [POST提交数据方式](/js/post)
   * [JSONP](/js/jsonp)
   * [防抖节流](/js/防抖节流)
+  * [函数柯里化](/js/函数柯里化)
   
 * [vue](/vue/router)
   * [vue router](/vue/router)
