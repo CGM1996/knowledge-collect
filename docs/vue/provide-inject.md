@@ -9,6 +9,9 @@
 3. size 的改变就可以依赖这个elForm里面的属性了
   ![](https://cdn.nlark.com/yuque/0/2020/png/622169/1594375921064-98e57c7a-62ef-48de-b62a-c544a59f476b.png)
 
+  在input组件中会导入父级和父级的父级的provider
+  ![](../assets/imgs/inject.png)
+
 ### 忏悔
 发现这个属性之后，我为我曾经写过的多级组件，并且一层层传prop的行为感到羞耻！！！
 

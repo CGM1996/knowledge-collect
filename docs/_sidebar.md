@@ -73,7 +73,8 @@
   * [网络操作](/node/网络操作)
   * [模板引擎pug](/node/模板引擎pug)
   * [koa](/node/koa框架)
-  * [koa](/上传图片至tinypng压缩/做一个tinypng)
+  * [上传图片至tinypng压缩](/node/做一个tinypng)
+  * [package.json知多少](/node/package.json知多少)
   
 
 * [React](/React/README)
