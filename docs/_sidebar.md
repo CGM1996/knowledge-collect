@@ -64,6 +64,8 @@
   * [格式化](/tool/lint-tool)
   * [一些好玩的网站收集](/tool/一些好玩的网站收集)
   * [如何学好英语](/tool/如何学好英语)
+  * [chrome调试技巧](/tool/chrome调试技巧)
+  
   
 * [Node](/node/开始)
   * [开始](/node/开始)
