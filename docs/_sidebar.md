@@ -51,8 +51,11 @@
   * [vue router](/vue/router)
   * [vue 源码](/vue/vue-code)
   * [provide-inject](/vue/vue-code)
+  * [v-model](/vue/v-model)
+  * [组件传值方式总结](/vue/组件传值方式总结)
   
-* [Tool](/tool/docsify)
+* [Tool](/tool/经常忘记的md语法)
+  * [经常忘记的md语法](/tool/经常忘记的md语法)
   * [docsify 常用语法说明](/tool/docsify)
   * [sentry接入](/tool/sentry)
   * [vue项目配置lint](/tool/lint-tool)
@@ -65,7 +68,6 @@
   * [一些好玩的网站收集](/tool/一些好玩的网站收集)
   * [如何学好英语](/tool/如何学好英语)
   * [chrome调试技巧](/tool/chrome调试技巧)
-  
   
 * [Node](/node/开始)
   * [开始](/node/开始)
@@ -84,6 +86,8 @@
   * [Redux](/React/Redux)
   * [使用react antd搭建后台管理系统](/React/使用react+antd搭建后台管理系统)
 
-  
+* [感悟](/think/一些工作经验)
+  * [一些工作经验](/think/一些工作经验)
+
 * [珍藏](/collect/blog)
   * [技术博客收藏](/collect/blog)
