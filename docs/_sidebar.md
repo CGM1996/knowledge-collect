@@ -53,6 +53,8 @@
   * [provide-inject](/vue/vue-code)
   * [v-model](/vue/v-model)
   * [组件传值方式总结](/vue/组件传值方式总结)
+  * [mixin和插件](/vue/mixin和插件)
+  * [Vue.extend和Vue.component](/vue/extend和component)
   
 * [Tool](/tool/经常忘记的md语法)
   * [经常忘记的md语法](/tool/经常忘记的md语法)
