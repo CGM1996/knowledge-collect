@@ -46,6 +46,7 @@
   * [JSONP](/js/jsonp)
   * [防抖节流](/js/防抖节流)
   * [函数柯里化](/js/函数柯里化)
+  * [js常用的文件类型](/js/js常用的文件类型)
   
 * [vue](/vue/router)
   * [vue router](/vue/router)
