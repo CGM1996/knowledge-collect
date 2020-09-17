@@ -30,6 +30,8 @@
   * [animation 动画集锦](/css/animation-collect)
   * [filter](/css/filter)
   * [起名废拯救指南](/css/起名)
+  * [由height:100%引发的CSS3高度宽度新属性](/css/min-height和height)
+  * [object-fit](/css/object-fit)
   
 * [JS](/js/按位操作符)
   * [按位操作符](/js/按位操作符)
@@ -71,6 +73,8 @@
   * [一些好玩的网站收集](/tool/一些好玩的网站收集)
   * [如何学好英语](/tool/如何学好英语)
   * [chrome调试技巧](/tool/chrome调试技巧)
+  * [微信公众号开发技巧](/tool/微信公众号开发技巧)
+  
   
 * [Node](/node/开始)
   * [开始](/node/开始)
