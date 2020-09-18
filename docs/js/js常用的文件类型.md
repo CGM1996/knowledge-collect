@@ -14,6 +14,7 @@ Blob是用来支持文件操作的。File继承了所有Blob的属性。<br/>
 ### 如何获取File
 1. input标签上所选择的文件
 2. 拖拽中生成的DataTransfer对象
+
 File对象是一种特殊的Blob对象，可以调用Blob的所有方法。
 ### Blob常用方法 及 可以实现的功能
 1. 文件下载 
@@ -24,6 +25,7 @@ File对象是一种特殊的Blob对象，可以调用Blob的所有方法。
 通过blob.slice可以分割二进制数据为子Blob上传
 4. 本地读取文件
 FileReader的API可以将Blob或Blob转化为文本 or ArrayBuffer or Data URL 等类型。<br/>
+
 * FileReader.readAsText(Blob)：将Blob转化为文本字符串
 * FileReader.readAsArrayBuffer(Blob)： 将Blob转为ArrayBuffer格式数据
 * FileReader.readAsDataURL(): 将Blob转化为Base64格式的Data URL
