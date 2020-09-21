@@ -58,6 +58,16 @@ console.log({a})
 
 ### 切换控制台抽屉 esc 键
 
+### 调试相关
+F8  or  Ctrl + \: 暂停/继续
+F10  or  Ctrl + ': 单步执行
+F11  or Ctrl +;: 单步进入
+Shift + F11  or Ctrl + Shift+;: 单步退出
+Ctrl +./Ctrl+, : 上一帧/下一帧
+Ctrl +Shift+E: 被选中代码在控制台中打印出console信息(非常实用)
+Ctrl + Shift + A: 添加到debugger的watch里面,可以关注你选中内容的变化
+Ctrl + B: 打断点/取消断点(很实用)
+
 ## 参考链接
 * [你不知道的Chrome调试工具技巧-系列-有趣有趣！！](https://juejin.im/post/6844903732874854414)
 * [console所有的api](https://developers.google.cn/web/tools/chrome-devtools/console/api)
