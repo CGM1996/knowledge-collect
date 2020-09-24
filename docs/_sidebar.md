@@ -92,6 +92,7 @@
   * [koa](/node/koa框架)
   * [上传图片至tinypng压缩](/node/做一个tinypng)
   * [package.json知多少](/node/package.json知多少)
+  * [npm常用命令](/node/npm常用命令)
   
 
 * [React](/React/README)
