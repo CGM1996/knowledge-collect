@@ -74,6 +74,9 @@ let reader = new FileReader();
 reader.readAsDataURL(file)
 console.log(reader)
 ```
+```js
+URL.createObjectURL(file)
+```
 
 ### 2. base64 -> file
 ```js
