@@ -17,20 +17,51 @@ Blob是用来支持文件操作的。File继承了所有Blob的属性。<br/>
 
 File对象是一种特殊的Blob对象，可以调用Blob的所有方法。
 ### Blob常用方法 及 可以实现的功能
-1. 文件下载 
+#### 1. 文件下载 
 通过`URL.cretaeObjectURL(blob)`生成的Blob url,赋值给a.download即可完成下载功能。【download属性不兼容IE, 对IE可通过window.navigator.msSaveBlob方法或其他进行优化】
-2. 图片显示
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="通过Blob实现下载" src="https://codepen.io/rsnowing-the-reactor/embed/gOrEzVy?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/rsnowing-the-reactor/pen/gOrEzVy'>通过Blob实现下载</a> by hell
+  (<a href='https://codepen.io/rsnowing-the-reactor'>@rsnowing-the-reactor</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+#### 2. 图片显示
 通过`URL.cretaeObjectURL(blob)`生成的Blob url,赋给img.src 即可展示
-3. 资源分段上传
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="Blob实现图片本地显示" src="https://codepen.io/rsnowing-the-reactor/embed/jOqJxJP?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/rsnowing-the-reactor/pen/jOqJxJP'>Blob实现图片本地显示</a> by hell
+  (<a href='https://codepen.io/rsnowing-the-reactor'>@rsnowing-the-reactor</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+#### 3. 资源分段上传
 通过blob.slice可以分割二进制数据为子Blob上传
-4. 本地读取文件
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="Blob实现文件分片上传" src="https://codepen.io/rsnowing-the-reactor/embed/BaKbVNB?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/rsnowing-the-reactor/pen/BaKbVNB'>Blob实现文件分片上传</a> by hell
+  (<a href='https://codepen.io/rsnowing-the-reactor'>@rsnowing-the-reactor</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+#### 4. 本地读取文件
 FileReader的API可以将Blob或Blob转化为文本 or ArrayBuffer or Data URL 等类型。<br/>
 
 * FileReader.readAsText(Blob)：将Blob转化为文本字符串
 * FileReader.readAsArrayBuffer(Blob)： 将Blob转为ArrayBuffer格式数据
 * FileReader.readAsDataURL(): 将Blob转化为Base64格式的Data URL
 
-具体例子可以看参考链接中的知乎链接。
+##### 读取本地图片 获取base64链接
+<iframe height="265" style="width: 100%;" scrolling="no" title="FileReader实现图片本地显示" src="https://codepen.io/rsnowing-the-reactor/embed/JjXmjdy?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/rsnowing-the-reactor/pen/JjXmjdy'>FileReader实现图片本地显示</a> by hell
+  (<a href='https://codepen.io/rsnowing-the-reactor'>@rsnowing-the-reactor</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+##### 读取本地文件内容
+<iframe height="265" style="width: 100%;" scrolling="no" title="读取本地文件内容" src="https://codepen.io/rsnowing-the-reactor/embed/KKzEeqa?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/rsnowing-the-reactor/pen/KKzEeqa'>读取本地文件内容</a> by hell
+  (<a href='https://codepen.io/rsnowing-the-reactor'>@rsnowing-the-reactor</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+
+
 
 ### Blob总结
 Blob是针对文件的，或者可以说它就是一个文件对象，同时呢我们发现Blob欠缺对二进制数据的细节操作能力，比如如果如果要具体修改某一部分的二进制数据，Blob显然就不够用了，而这种细粒度的功能则可以由下面介绍的ArrayBuffer来完成。
