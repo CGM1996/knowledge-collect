@@ -1,7 +1,11 @@
 # 如何写一个ts版的工具库
 
 ## 编译打包
-**使用工具：Rollup + Babel + TypeScript**<br />**Rollup： ** 是一个 JavaScript 模块打包器，可以将小块代码编译成大块复杂的代码。号称webpack下一代的打包工具。比较适用于库的打包，vue,babel都是使用Rollup打包的。[Rollup中文文档](https://www.rollupjs.com/)<br />**Babel:** 一个JavaScript编译器。 [Babel中文文档](https://www.babeljs.cn/)<br />**TypeScript: **是JavaScript类型的超集，可以被编译成纯JavaScript。 [TypeScript中文文档](https://www.tslang.cn/index.html)
+**使用工具：Rollup + Babel + TypeScript**
+
+Rollup 是一个 JavaScript 模块打包器，可以将小块代码编译成大块复杂的代码。号称webpack下一代的打包工具。比较适用于库的打包，vue,babel都是使用Rollup打包的。[Rollup中文文档](https://www.rollupjs.com/)<br />
+Babel一个JavaScript编译器。 [Babel中文文档](https://www.babeljs.cn/)<br />
+TypeScript 是JavaScript类型的超集，可以被编译成纯JavaScript。 [TypeScript中文文档](https://www.tslang.cn/index.html)
 ### 编译配置
 #### 1. 安装Rollup
 ```javascript

@@ -81,6 +81,6 @@ const result = (
 | 第三方依赖 | 打包                     | 不打包                           | 不打包   |      |
 
 ### 参考链接
-[知乎-JavaScript 模块现状](https://zhuanlan.zhihu.com/p/26567790) 
-[一个好博客！---让我搞懂了这些模式的区别](https://fe.rualc.com/note/js-modular.html)
-[颜海镜-如何写一个现代的JavaScript库](https://yanhaijing.com/javascript/2018/08/17/2020-js-lib/)
+* [知乎-JavaScript 模块现状](https://zhuanlan.zhihu.com/p/26567790) 
+* [一个好博客！---让我搞懂了这些模式的区别](https://fe.rualc.com/note/js-modular.html)
+* [颜海镜-如何写一个现代的JavaScript库](https://yanhaijing.com/javascript/2018/08/17/2020-js-lib/)

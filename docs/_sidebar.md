@@ -32,6 +32,7 @@
   * [起名废拯救指南](/css/起名)
   * [由height:100%引发的CSS3高度宽度新属性](/css/min-height和height)
   * [object-fit](/css/object-fit)
+  * [CSS伪类 :last-child :last-of-type](/css/最后的元素)
   
 * [JS](/js/按位操作符)
   * [按位操作符](/js/按位操作符)
@@ -50,6 +51,7 @@
   * [函数柯里化](/js/函数柯里化)
   * [js中的文件](/js/js常用的文件类型)
   * [重绘-重流](/js/重绘-重流)
+  * [令人困惑的模块](/js/JavaScript模块)
   * [浏览器模型](/js/浏览器模型/FormData)
     * [FormData](/js/浏览器模型/FormData)
     * [File对象](/js/浏览器模型/File对象)
@@ -63,6 +65,7 @@
   * [组件传值方式总结](/vue/组件传值方式总结)
   * [mixin和插件](/vue/mixin和插件)
   * [Vue.extend和Vue.component](/vue/extend和component)
+  * [组件缓存](/vue/组件缓存)
   
 * [Tool](/tool/经常忘记的md语法)
   * [经常忘记的md语法](/tool/经常忘记的md语法)
