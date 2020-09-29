@@ -71,7 +71,7 @@ let value5: string = value    // Error
 let value6: object = value    // Error
 let value7: any[] = value     // Error
 ```
-![img](../imgs/never.png)
+![img](../../assets/imgs/never.png)
 > 在那些将取得任意值，但不知道具体类型的地方使用 unknown，而非 any。
 
 

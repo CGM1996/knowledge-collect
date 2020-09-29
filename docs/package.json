@@ -4,6 +4,7 @@
   "private": true,
   "description": "",
   "scripts": {
-    "dev": "docsify serve ../docs --open"
+    "dev": "docsify serve ../docs --open",
+    "summary": "node ./read.js"
   }
 }
