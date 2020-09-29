@@ -51,7 +51,7 @@ function getFile(curpath, data) {
       
       // 转换路径格式 ** path.relative
       let formateRoute = path.relative(process.cwd(), fpath)
-      formateRoute = formateRoute.replace(/\\/, '/')
+      formateRoute = formateRoute.replace(/\\/g, '/')
       data.push({ path: formateRoute, name: fileName })
     }
   })
