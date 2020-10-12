@@ -58,16 +58,14 @@ function getFile(curpath, data) {
 }
 
 let md = ''
-function getSummary(obj, count) {
+function getSummary(obj, count = 1) {
+  const map = {
+    1: [``, `  `],
+    2: [`  `, `    `]
+  }
   for(let key in obj) {
-    if (count === 2) {
-      var space1 = `  `
-      var space2 = `    `
-    } else {
-      var space1 = ``
-      var space2 = `  `
-    }
-    // md += `${space1}* [${key}]()\n`
+    var space1 = map[count][0]
+    var space2 = map[count][1]
     if (Array.isArray(obj[key])) {
       let isTop = true
       obj[key].forEach((item, index) => {
