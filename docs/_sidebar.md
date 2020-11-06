@@ -40,6 +40,10 @@
   * [package.json知多少](node/package.json知多少.md)
   * [代码的组织和部署](node/代码的组织和部署.md)
   * [做一个tinypng](node/做一个tinypng.md)
+  * [常用API](node/常用API/node中的全局API.md)
+    * [node中的全局API](node/常用API/node中的全局API.md)
+    * [path](node/常用API/path.md)
+
   * [开始](node/开始.md)
   * [数据库](node/数据库.md)
   * [文件操作](node/文件操作.md)
